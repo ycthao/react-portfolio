@@ -1,8 +1,26 @@
 .fter {
-    background-color: #FF0000;
+    background-color: #5b9db1;
+    text-align: center;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    color: #FFF;
+    ;
+}
+
+body {
+    background-color: #5b9db122;
+}
+
+.bckco {
+    background-color: #5b9db122;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #152429;
+    margin-right: 5px;
 }
