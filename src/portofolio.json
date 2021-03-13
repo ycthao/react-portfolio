@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Obital",
+        "image": "./src/image/orbit.png",
+        "description": "A application where users can find, create, or navigate clubs/social groups or events
+        taking place in a digital spaces.",
+        "technology": "HTML, CSS, JavaScript, Handlebars, Nodejs, MySQL",
+        "github": "https://github.com/ycthao/orbit",
+        "heroku": "https://wereinorbit.herokuapp.com/"
+    }
+]
