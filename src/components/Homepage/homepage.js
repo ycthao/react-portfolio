@@ -2,7 +2,7 @@ import React from "react";
 import "../../style/style.css";
 
 function Homepage() {
-  return <h1>Home page</h1>;
+  return <h2 className="center">About Me</h2>;
 }
 
 export default Homepage;

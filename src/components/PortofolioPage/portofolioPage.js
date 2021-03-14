@@ -8,7 +8,7 @@ function PortofolioPage() {
       <h3 className="center">Portofolio</h3>
       <div className="container">
         <div className="row center" style={{ width: "100%" }}>
-          <Card className="col-3">
+          <Card className="col-4">
             <Card.Title>
               <h6>Title</h6>
             </Card.Title>
@@ -24,7 +24,7 @@ function PortofolioPage() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-3">
+          <Card className="col-4">
             <Card.Title>
               <h6>Title</h6>
             </Card.Title>
@@ -40,7 +40,7 @@ function PortofolioPage() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-3">
+          <Card className="col-4">
             <Card.Title>
               <h6>Title</h6>
             </Card.Title>
