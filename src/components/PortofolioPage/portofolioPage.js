@@ -1,38 +1,63 @@
 import React from "react";
-import portofolio from "../../portofolio.json";
 import "../../style/style.css";
+import { Card } from "react-bootstrap";
 
-function PortofolioPage(props) {
-  state = { portofolio };
-
-  removePortofolio = (id) => {
-    const portolio = this.state.portofolio.filter((portofolio) => portofolio.id !== id);
-    this.setState({ portofolio });
-  };
-
+function PortofolioPage() {
   return (
     <div>
-      <h2>Portofolio</h2>
-      {this.state.portofolio.map((portolio) => (
-        <div className="card">
-          <div className="img-container">
-            <img alt={props.name} src={props.image} />
-          </div>
-          <div className="content">
-            <ul>
-              <li>
-                <strong>Name:</strong> {props.name}
-              </li>
-              <li>
-                <strong>Occupation:</strong> {props.description}
-              </li>
-              <li>
-                <strong>Location:</strong> {props.github}
-              </li>
-            </ul>
-          </div>
+      <h3 className="center">Portofolio</h3>
+      <div className="container">
+        <div className="row center" style={{ width: "100%" }}>
+          <Card className="col-3">
+            <Card.Title>
+              <h6>Title</h6>
+            </Card.Title>
+            <Card.Img src="#" />
+            <Card.Body>
+              <Card.Text>
+                <p>Text</p>
+                <p>
+                  Github: <a href="">Link</a>
+                  <br />
+                  Deployed: <a href="">Link</a>
+                </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card className="col-3">
+            <Card.Title>
+              <h6>Title</h6>
+            </Card.Title>
+            <Card.Img src="#" />
+            <Card.Body>
+              <Card.Text>
+                <p>Text</p>
+                <p>
+                  Github: <a href="">Link</a>
+                  <br />
+                  Deployed: <a href="">Link</a>
+                </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card className="col-3">
+            <Card.Title>
+              <h6>Title</h6>
+            </Card.Title>
+            <Card.Img src="#" />
+            <Card.Body>
+              <Card.Text>
+                <p>Text</p>
+                <p>
+                  Github: <a href="">Link</a>
+                  <br />
+                  Deployed: <a href="">Link</a>
+                </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
-      ))}
+      </div>
     </div>
   );
 }
