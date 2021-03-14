@@ -3,7 +3,7 @@ import "../../style/style.css";
 
 function Navbar() {
   return (
-    <ul className="nav justify-content-end bckco">
+    <ul className="nav justify-content-end nvbg">
       <li className="nav-item">
         <a className="nav-link" aria-current="page" href="/">
           About Me

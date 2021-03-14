@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer mt-auto py-3 fter">
       <div className="container">
         {/* <!-- LinkedIn --> */}
-
+        <span>
         <a href="https://www.linkedin.com/in/yeem-chij-thao" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ function Footer() {
         <a href="Yeem_Chij_Vangsoua_Thao_Resume.pdf">Resume</a>
         <br />
 
-        <span>© 2021 Yeem Chij Thao </span>
+        © 2021 Yeem Chij Thao </span>
       </div>
     </footer>
   );

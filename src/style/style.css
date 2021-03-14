@@ -1,18 +1,26 @@
-.fter {
-    background-color: #5b9db1;
+.footer {
     text-align: center;
     width: 100%;
     position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
-    color: #FFF;
-    ;
 }
 
-body {
-    background-color: #5b9db122;
+.footer span {
+    background-color: #5b9db1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
 }
+
+.nvbg {
+    background-color: #5b9db1;
+}
+
+/* body {
+    background-color: #5b9db122;
+} */
 
 .bckco {
     background-color: #5b9db122;
