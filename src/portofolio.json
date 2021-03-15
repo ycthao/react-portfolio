@@ -14,7 +14,7 @@
         "name": "Decisive Kitchen",
         "image": "./src/image/DecisiveKitchen.png",
         "description": "A simple recipe finder that will find recipes with nutritional facts based on the user's search criteria.",
-        "technology": "A simple recipe finder that will find recipes with nutritional facts based on the user's search criteria.",
+        "technology": "HTML, CSS, JavaScript, The Meal DB, Edamam Nutrition API, Canva.",
         "github": "https://github.com/ycthao/DecisiveKitchen",
         "deployed": "https://calebkw91.github.io/DecisiveKitchen/"
     },
