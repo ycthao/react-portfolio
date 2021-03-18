@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #5b9db166;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #5b9db1;
@@ -17,7 +17,10 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
+}
 
+.txt-white {
+    color: #fff;
 }
 
 .nvbg {
@@ -39,7 +42,7 @@ a:active {
     margin-right: 5px;
 }
 
-a:hover{
+a:hover {
     color: #FFF;
 }
 
