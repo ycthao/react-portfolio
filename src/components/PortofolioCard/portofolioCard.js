@@ -1,29 +1,27 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../../style/style.css";
 import { Card } from "react-bootstrap";
 
 function FriendCard(props) {
   return (
-
-        <Card className="col-3">
-          <Card.Title>
-            <h6>{props.name}</h6>
-          </Card.Title>
-          <Card.Img alt={props.name} src={props.image} />
-          <Card.Body>
-            <Card.Text>
-              <p>{props.description}</p>
-              <p>{props.technology}</p>
-              <p>
-                Github: <a href={props.github}>{props.github}</a>
-                <br />
-                Deployed: <a href={props.deployed}>{props.deployed}</a>
-              </p>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-
+    <Card className="col-4 bgc">
+      <Card.Title>
+        <h6>{props.name}</h6>
+      </Card.Title>
+      <Card.Img alt={props.name} src={props.image} />
+      <Card.Body>
+        <Card.Text>
+          <p>{props.description}</p>
+          <p>{props.technology}</p>
+          <p>
+            Github: <a href={props.github}>{props.github}</a>
+            <br />
+            Deployed: <a href={props.deployed}>{props.deployed}</a>
+          </p>
+        </Card.Text>
+      </Card.Body>
+    </Card>
 
     // <div className="card">
     //   <div className="img-container">

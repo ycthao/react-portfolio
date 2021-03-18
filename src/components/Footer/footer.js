@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../../style/style.css";
 
 function Footer() {
@@ -6,7 +7,7 @@ function Footer() {
     <footer className="footer mt-auto py-3 fter">
       <div className="container">
         {/* <!-- LinkedIn --> */}
-        <span className="txt-white"> 
+        <span className="txt-white">
           <a href="https://www.linkedin.com/in/yeem-chij-thao" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"

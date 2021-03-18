@@ -4,6 +4,10 @@ body {
     color: #5b9db1;
 }
 
+.bgc {
+    background-color: #5b9db122;
+}
+
 .footer {
     text-align: center;
     width: 100%;
