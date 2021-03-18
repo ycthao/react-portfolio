@@ -1,26 +1,18 @@
 import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
 import "../../style/style.css";
 
-function Navbar() {
+function NavbarTemplate() {
   return (
-    <ul className="nav justify-content-end nvbg">
-      <li className="nav-item">
-        <a className="nav-link" aria-current="page" href="/">
-          About Me
-        </a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="/contact">
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="/portofolio">
-          Portofolio
-        </a>
-      </li>
-    </ul>
+    <Navbar className="nvbg">
+      <Navbar.Brand>Yeem Chij Thao</Navbar.Brand>
+      <Nav className="mr-auto">
+        <Nav.Link href="/">About Me</Nav.Link>
+        <Nav.Link href="/contact">Contact</Nav.Link>
+        <Nav.Link href="/portofolio">Portofolio</Nav.Link>
+      </Nav>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default NavbarTemplate;

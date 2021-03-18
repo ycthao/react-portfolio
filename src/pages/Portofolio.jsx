@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PortofolioCard from "../components/PortofolioCard/portofolioCard";
-import Navbar from "../components/Navbar/navbar";
 import Wrapper from "../components/Wrapper/wrapper"
 import plists from "../plist.json";
+import '../style/style.css';
 
 class Portofolio extends Component {
   // Setting this.state.plists to the plists json array
