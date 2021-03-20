@@ -8,11 +8,7 @@ function Homepage() {
     <div className="container">
       <Card className="bgc" style={{ width: "100%" }}>
         <Card.Title className="center">Yeem Chij Thao</Card.Title>
-        <Card.Img
-          variant="top"
-          style={{ width: "40%", height: "40%" }}
-          src="https://raw.githubusercontent.com/ycthao/react-portfolio/main/src/image/Profilepicture.PNG"
-        />
+        <Card.Img variant="top" style={{ width: "40%", height: "40%" }} src="./image/Profilepicture.PNG" />
         <Card.Body>
           <Card.Text>
             <p>
