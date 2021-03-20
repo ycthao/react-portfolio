@@ -13,7 +13,7 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/react-portfolio" component={Home}></Route>
           </Switch>
           <Switch>
             <Route exact path="/contact" component={Contact}></Route>
