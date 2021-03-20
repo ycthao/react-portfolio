@@ -5,7 +5,7 @@ import plists from "../plist.json";
 import '../style/style.css';
 
 class Portofolio extends Component {
-  // Setting this.state.plists to the plists json array
+  // Setting this.state.plists to the plists json array ey ey
   state = {
     plists
   };
