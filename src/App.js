@@ -19,9 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/react-portfolio/portofolio" component={Portofolio}></Route>
         </Switch>
-        <Switch>
-          <Route exact path="/react-portfolio/Yeem_Chij_Vangsoua_Thao_Resume.pdf"></Route>
-        </Switch>
+
       </div>
     </Router>
   );
