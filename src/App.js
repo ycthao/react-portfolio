@@ -8,16 +8,16 @@ import "./style/style.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       <div>
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home}></Route>
+          <Route exact path="/" component={Home}></Route>
         </Switch>
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact}></Route>
+          <Route exact path="/contact" component={Contact}></Route>
         </Switch>
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio}></Route>
+          <Route exact path="/portfolio" component={Portfolio}></Route>
         </Switch>
       </div>
     </Router>

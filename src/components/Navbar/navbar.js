@@ -7,9 +7,9 @@ function NavbarTemplate() {
   return (
     <Navbar className="nvbg">
       <Nav className="mr-auto">
-        <Nav.Link href="/react-portfolio">About Me</Nav.Link>
-        <Nav.Link href="/react-portfolio/contact">Contact</Nav.Link>
-        <Nav.Link href="/react-portfolio/portfolio">Portfolio</Nav.Link>
+        <Nav.Link href="/">About Me</Nav.Link>
+        <Nav.Link href="/contact">Contact</Nav.Link>
+        <Nav.Link href="/portfolio">Portfolio</Nav.Link>
       </Nav>
     </Navbar>
   );
