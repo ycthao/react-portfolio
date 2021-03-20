@@ -7,7 +7,7 @@ function FriendCard(props) {
   return (
     <Card className="col-4 bgc">
       <Card.Title>
-        <h6>{props.name}</h6>
+        <h3>{props.name}</h3>
       </Card.Title>
       <Card.Img alt={props.name} src={props.image} />
       <Card.Body>
@@ -18,6 +18,8 @@ function FriendCard(props) {
             Github: <a href={props.github}>{props.github}</a>
             <br />
             Deployed: <a href={props.deployed}>{props.deployed}</a>
+            {props.deployed === "" ? "No deployment" : ""}
+            
           </p>
         </Card.Text>
       </Card.Body>
