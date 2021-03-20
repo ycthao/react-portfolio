@@ -12,46 +12,20 @@ function FriendCard(props) {
       <Card.Img alt={props.name} src={props.image} />
       <Card.Body>
         <Card.Text>
-          <p>{props.description}</p>
-          <p>{props.technology}</p>
-          <p>
+          {props.description} <br /><br />
+          Technology used: {props.technology} <br /><br />
+          
             Github: <a href={props.github}>{props.github}</a>
             <br />
             Deployed: <a href={props.deployed}>{props.deployed}</a>
-            {props.deployed === "" ? "No deployment" : ""}
+            {props.deployed === "" ? "No deployment" : ""} <br /><br />
             
-          </p>
+          
         </Card.Text>
       </Card.Body>
     </Card>
 
-    // <div className="card">
-    //   <div className="img-container">
-    //     <img alt={props.name} src={props.image} />
-    //   </div>
-    //   <div className="content">
-    //     <ul>
-    //       <li>
-    //         <strong>Name:</strong> {props.name}
-    //       </li>
-    //       <li>
-    //         <strong>{props.description}</strong>
-    //       </li>
-    //       <li>
-    //         <strong>{props.technology}:</strong>
-    //       </li>
-    //       <li>
-    //         Github:{" "}
-    //         <a href={props.github} target="_blank" rel="noreferrer">
-    //           {props.github}
-    //         </a>{" "}
-    //         <br />
-    //         {/* Deployed: <a href={props.deployed} target="_blank" rel="noreferrer">{props.deployed}</a> */}
-    //         {props.deployed != null ? props.deployed : "no link"}
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </div>
+  
   );
 }
 
