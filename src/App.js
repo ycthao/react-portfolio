@@ -8,22 +8,25 @@ import "./style/style.css";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Switch>
-          <Route exact path="/" component={Home}></Route>
-        </Switch>
-        <Switch>
-          <Route exact path="/contact" component={Contact}></Route>
-        </Switch>
-        <Switch>
-          <Route exact path="/portofolio" component={Portofolio}></Route>
-        </Switch>
-        <Switch>
-          <Route exact path="/Yeem_Chij_Vangsoua_Thao_Resume.pdf"></Route>
-        </Switch>
-      </div>
-    </Router>
+    <>
+      THINGS
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+          </Switch>
+          <Switch>
+            <Route exact path="/contact" component={Contact}></Route>
+          </Switch>
+          <Switch>
+            <Route exact path="/portofolio" component={Portofolio}></Route>
+          </Switch>
+          <Switch>
+            <Route exact path="/Yeem_Chij_Vangsoua_Thao_Resume.pdf"></Route>
+          </Switch>
+        </div>
+      </Router>
+    </>
   );
 }
 
