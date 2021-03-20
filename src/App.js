@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/react-portfolio/react-portfolio/contact" component={Contact}></Route>
         </Switch>
         <Switch>
-          <Route exact path="/react-portfolio/react-portfolio/portofolio" component={Portofolio}></Route>
+          <Route exact path="/react-portfolio/react-portfolio/portfolio" component={Portofolio}></Route>
         </Switch>
       </div>
     </Router>
