@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
+import Footer from "./components/Footer/footer";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/PortfolioPage";
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/react-portfolio/portfolio" component={Portfolio}></Route>
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }

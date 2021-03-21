@@ -8,9 +8,7 @@ import '../style/style.css';
 const Contact = () => {
     return (
         <div>
-            <Navbar />
             <ContactPage />
-            <Footer />
         </div>
     );
 };
