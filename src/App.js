@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import Navbar from "./components/Navbar/navbar";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/PortfolioPage";
@@ -9,6 +9,7 @@ import "./style/style.css";
 function App() {
   return (
     <Router>
+      <Navbar />
       <div>
         <Switch>
           <Route exact path="/react-portfolio" component={Home}></Route>

@@ -8,7 +8,6 @@ import "../style/style.css"
 const Home = () => {
     return (
         <div>
-            <Navbar />
             <Homepage />
             <Footer />
         </div>
